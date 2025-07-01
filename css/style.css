@@ -1,4 +1,7 @@
-body {
+html {
+  scroll-behavior: smooth;
+}
+html body {
   background-color: #1F3C88;
   color: white;
   font-family: "Bakbak One", sans-serif;
@@ -7,21 +10,21 @@ body {
   margin: 0px;
   padding: 0px;
 }
-body a {
+html body a {
   text-decoration: none;
   color: white;
 }
-body header {
+html body header {
   background: linear-gradient(180deg rgb(31, 60, 136) 100%, rgba(2, 0, 36, 0.781) 0%);
 }
-body header nav {
+html body header nav {
   background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgb(31, 60, 136) 100%);
   height: 110px;
   width: 100%;
   position: fixed;
   z-index: 1000;
 }
-body header nav .contac-nav {
+html body header nav .contac-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,56 +33,56 @@ body header nav .contac-nav {
   margin-left: 3vh;
   margin-right: 3vh;
 }
-body header nav .contac-nav .email {
+html body header nav .contac-nav .email {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 2vh;
 }
-body header nav .contac-nav .email img {
+html body header nav .contac-nav .email img {
   max-width: 25px;
   max-height: 25px;
 }
-body header nav .contac-nav .email p {
+html body header nav .contac-nav .email p {
   margin-left: 1.5vh;
 }
-body header nav .contac-nav .wp {
+html body header nav .contac-nav .wp {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 2vh;
 }
-body header nav .contac-nav .wp img {
+html body header nav .contac-nav .wp img {
   max-width: 25px;
   max-height: 25px;
 }
-body header nav .contac-nav .wp p {
+html body header nav .contac-nav .wp p {
   margin-left: 1.5vh;
 }
-body header nav .contac-nav .phone {
+html body header nav .contac-nav .phone {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 2vh;
 }
-body header nav .contac-nav .phone img {
+html body header nav .contac-nav .phone img {
   max-width: 25px;
   max-height: 25px;
 }
-body header nav .contac-nav .phone p {
+html body header nav .contac-nav .phone p {
   margin-left: 1.5vh;
 }
-body header nav .barra-nav {
+html body header nav .barra-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 3vh;
   margin-right: 3vh;
 }
-body header nav .barra-nav a {
+html body header nav .barra-nav a {
   font-size: x-large;
 }
-body header .banner {
+html body header .banner {
   width: 100%;
   height: 400px;
   padding-top: 300px;
@@ -88,43 +91,43 @@ body header .banner {
   align-items: center;
   flex-direction: column;
 }
-body header .banner .logo-licitarge {
+html body header .banner .logo-licitarge {
   filter: drop-shadow(1px 10px 5px rgb(0, 0, 0));
   margin-top: -38vh;
   z-index: 1;
 }
-body header .banner .fondo-banner {
+html body header .banner .fondo-banner {
   position: absolute;
   width: 100%;
   height: 600px;
   object-fit: cover;
   margin-top: -28.8vh;
 }
-body header .banner p {
+html body header .banner p {
   font-size: 25px;
   z-index: 2;
 }
-body main .elegirnos {
+html body main .elegirnos {
   background-color: white;
   text-align: center;
   color: #1F3C88;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-body main .elegirnos h1 {
+html body main .elegirnos h1 {
   font-size: 50px;
 }
-body main .elegirnos .motivos {
+html body main .elegirnos .motivos {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -40px;
 }
-body main .elegirnos .motivos img {
+html body main .elegirnos .motivos img {
   height: 90px;
   width: 90px;
 }
-body main .elegirnos .motivos .cont-motivos {
+html body main .elegirnos .motivos .cont-motivos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,19 +136,19 @@ body main .elegirnos .motivos .cont-motivos {
   height: 170px;
   width: 570px;
 }
-body main .elegirnos .motivos .cont-motivos .title {
+html body main .elegirnos .motivos .cont-motivos .title {
   font-size: 30px;
   height: 34px;
   width: 100%;
 }
-body main .elegirnos .motivos .cont-motivos .sub-title {
+html body main .elegirnos .motivos .cont-motivos .sub-title {
   font-size: 20px;
   margin-top: -30px;
   margin-left: 2px;
   width: 100%;
   color: #04A0BD;
 }
-body main .requisitos {
+html body main .requisitos {
   background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgb(31, 60, 136) 100%);
   display: flex;
   justify-content: center;
@@ -155,39 +158,39 @@ body main .requisitos {
   padding-top: 20px;
   padding-bottom: 40px;
 }
-body main .requisitos h2 {
+html body main .requisitos h2 {
   font-size: 50px;
   height: 60px;
 }
-body main .requisitos .descrip-rolclave {
+html body main .requisitos .descrip-rolclave {
   text-align: center;
   font-size: 25px;
   width: 630px;
   margin-top: -30px;
   color: #04A0BD;
 }
-body main .requisitos .cont-necesario {
+html body main .requisitos .cont-necesario {
   text-align: left;
   width: 600px;
 }
-body main .requisitos .cont-necesario .necesario {
+html body main .requisitos .cont-necesario .necesario {
   margin-top: 0px;
 }
-body main .requisitos .cont-necesario .necesario .title {
+html body main .requisitos .cont-necesario .necesario .title {
   font-size: 30px;
 }
-body main .requisitos .cont-necesario .necesario .sub-title {
+html body main .requisitos .cont-necesario .necesario .sub-title {
   font-size: 18px;
   margin-top: -35px;
   color: #04A0BD;
 }
-body main .requisitos .coment-rolclave {
+html body main .requisitos .coment-rolclave {
   width: 850px;
   margin-bottom: -4vh;
   text-align: center;
   font-size: 25px;
 }
-body main .sobrenos {
+html body main .sobrenos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,12 +199,12 @@ body main .sobrenos {
   background-color: white;
   color: #1F3C88;
 }
-body main .sobrenos h2 {
+html body main .sobrenos h2 {
   font-size: 50px;
   height: 60px;
   padding-top: -20px;
 }
-body main .sobrenos .text-sobrenos {
+html body main .sobrenos .text-sobrenos {
   text-align: center;
   font-size: 20px;
   color: #04A0BD;
@@ -209,46 +212,48 @@ body main .sobrenos .text-sobrenos {
   margin-bottom: 7vh;
   width: 850px;
 }
-body main .sobrenos .estadisticas {
+html body main .sobrenos .estadisticas {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-body main .sobrenos .estadisticas .item {
+html body main .sobrenos .estadisticas .item {
   margin-top: -70px;
   margin-left: 60px;
 }
-body main .sobrenos .estadisticas .item .numero {
+html body main .sobrenos .estadisticas .item .numero {
   font-size: 65px;
 }
-body main .sobrenos .estadisticas .item .descripcion {
+html body main .sobrenos .estadisticas .item .descripcion {
   font-size: 30px;
   margin-top: -70px;
 }
-body main .sobrenos img {
-  width: 80%;
-  height: 550px;
-  margin-right: 30%;
+html body main .sobrenos img {
+  width: 60%;
+  height: 500px;
+  margin-right: 43%;
+  margin-top: -10vh;
+  filter: drop-shadow(1px -1px 2px rgb(0, 0, 0));
 }
-body footer {
+html body footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-body footer h3 {
+html body footer h3 {
   text-align: center;
   font-size: 40px;
 }
-body footer .contactanos {
+html body footer .contactanos {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 1500px;
 }
-body footer .contactanos .watap {
+html body footer .contactanos .watap {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -262,15 +267,15 @@ body footer .contactanos .watap {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-body footer .contactanos .watap img {
+html body footer .contactanos .watap img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
 }
-body footer .contactanos .watap p {
+html body footer .contactanos .watap p {
   margin-left: 10%;
 }
-body footer .contactanos .tiktok {
+html body footer .contactanos .tiktok {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -284,15 +289,15 @@ body footer .contactanos .tiktok {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-body footer .contactanos .tiktok img {
+html body footer .contactanos .tiktok img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
 }
-body footer .contactanos .tiktok p {
+html body footer .contactanos .tiktok p {
   margin-left: 10%;
 }
-body footer .contactanos .instagram {
+html body footer .contactanos .instagram {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -306,15 +311,15 @@ body footer .contactanos .instagram {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-body footer .contactanos .instagram img {
+html body footer .contactanos .instagram img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
 }
-body footer .contactanos .instagram p {
+html body footer .contactanos .instagram p {
   margin-left: 10%;
 }
-body footer .contactanos .telefono {
+html body footer .contactanos .telefono {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -328,15 +333,15 @@ body footer .contactanos .telefono {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-body footer .contactanos .telefono img {
+html body footer .contactanos .telefono img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
 }
-body footer .contactanos .telefono p {
+html body footer .contactanos .telefono p {
   margin-left: 10%;
 }
-body footer .contactanos .email {
+html body footer .contactanos .email {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -350,12 +355,12 @@ body footer .contactanos .email {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 300px;
 }
-body footer .contactanos .email img {
+html body footer .contactanos .email img {
   height: 40px;
   width: 40px;
   margin-right: 15px;
 }
-body footer .contactanos .email p {
+html body footer .contactanos .email p {
   margin-left: 10%;
 }
 
