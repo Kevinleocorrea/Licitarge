@@ -234,7 +234,6 @@ html body main .sobrenos img {
   height: 500px;
   margin-right: 43%;
   margin-top: -10vh;
-  filter: drop-shadow(1px -1px 2px rgb(0, 0, 0));
 }
 html body footer {
   display: flex;
