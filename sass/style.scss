@@ -1,0 +1,550 @@
+
+$color-principal: #1F3C88;
+$color-secundario: #04A0BD;
+
+
+html {
+    
+    scroll-behavior: smooth;
+    
+    body {
+        background-color: $color-principal;
+
+        color: white;
+
+        font-family: "Bakbak One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        margin: 0px;
+        padding: 0px;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        //GENERAL//
+
+        header {
+
+            background: linear-gradient(180deg rgba(31, 60, 136, 1) 100%, rgba(2, 0, 36, 0.781) 0%);
+
+            //Seccion top de contactos//
+            nav {
+                background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgba(31, 60, 136, 1) 100%);
+
+                height: 110px;
+                width: 100%;
+
+                position: fixed;
+                
+                z-index: 1000;
+
+                //Contactos top//
+                .contac-nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    height: 40px;
+                    width: 90%;
+                    
+                    margin-top: 1.5vh;
+                    margin-left: 3vh;
+                    margin-right: 3vh;
+                    
+                    .email {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        margin-right: 2vh;
+                        
+                        img {
+                            max-width: 25px;
+                            max-height: 25px;
+                        }
+                        
+                        p {
+                            margin-left: 1.5vh;
+                        }
+                    }
+
+                    .wp {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        margin-right: 2vh;
+                        
+                        img {
+                            max-width: 25px;
+                            max-height: 25px;
+                        }
+                        
+                        p {
+                            margin-left: 1.5vh;
+                        }
+                    }
+                    
+                    .phone {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        margin-right: 2vh;
+                        
+                        img {
+                            max-width: 25px;
+                            max-height: 25px;
+                        }
+                        
+                        p {
+                            margin-left: 1.5vh;
+                        }
+                    }
+                }
+                
+                ////
+                
+                .barra-nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    
+                    margin-left: 3vh;
+                    margin-right: 3vh;
+                    
+                    a {
+                        font-size: x-large;
+                    }
+                }
+            }
+            
+            
+            //Seccion de banner//
+            .banner {
+                width: 100%;
+                height: 400px;
+                
+                padding-top: 20%;
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+                flex-direction: column;
+                
+                background-image: url(../images/foto-baner-1.png);
+                background-position: 50%;
+                background-size: cover;
+                
+                width: 100%;
+                height: 400px;
+                
+                object-fit: cover;
+                
+                
+                .logo-licitarge {
+                    filter: drop-shadow(1px 10px 5px rgb(0, 0, 0));
+                    
+                    margin-top: -17%;
+                    
+                    z-index: 1;
+                }
+                
+                p {
+                    font-size: 25px;
+                    
+                    z-index: 2;
+                }
+            }
+            
+            //Termino seccion de banner//
+        }
+        
+        main {
+
+            .elegirnos {
+                background-color: white;
+                
+                text-align: center;
+                color: $color-principal;
+                
+                
+                padding-top: 20px;
+                padding-bottom: 40px;
+                
+                h1 {
+                    font-size: 50px;
+                }
+
+                .motivos {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    margin-top: -40px;
+                    
+                    img {
+                        height: 90px;
+                        width: 90px;
+                    }
+                    
+                    .cont-motivos {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        text-align: start;
+
+                        height: 170px;
+                        width: 570px;
+
+                        .title {
+                            font-size: 30px;
+
+                            height: 34px;
+                            width: 100%;
+                        }
+
+                        .sub-title {
+                            font-size: 20px;
+                            margin-top: -30px;
+                            margin-left: 2px;
+
+                            width: 100%;
+
+                            color: $color-secundario;
+                        }
+                    }
+
+                }
+            }
+
+            .requisitos {
+                background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgba(31, 60, 136, 1) 100%);
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                text-align: left;
+
+                padding-top: 20px;
+                padding-bottom: 40px;
+
+                h2 {
+                    font-size: 50px;
+
+                    height: 60px;
+                }
+
+                .descrip-rolclave {
+
+                    text-align: center;
+
+                    font-size: 25px;
+
+                    width: 100%;
+
+                    margin-top: -30px;
+
+                    color: $color-secundario;
+                }
+
+                .cont-necesario {
+
+                    text-align: left;
+                    
+                    width: 50%;
+                    
+                    .necesario {
+                        margin-top: 0px;
+
+                        .title {
+                            font-size: 30px;
+
+                        }
+
+                        .sub-title {
+                            font-size: 18px;
+
+                            margin-top: -35px;
+
+                            color: $color-secundario;
+                        }
+
+                    }
+                }
+
+                .coment-rolclave {
+                    width: 850px;
+
+                    margin-bottom: -4vh;
+
+                    text-align: center;
+                    font-size: 25px;
+                }
+            }
+
+            .sobrenos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                text-align: center;
+
+                background-color: white;
+
+                color: $color-principal;
+
+
+
+                h2 {
+                    font-size: 50px;
+
+                    height: 60px;
+
+                    padding-top: -20px;
+                }
+
+                .text-sobrenos {
+                    text-align: center;
+                    font-size: 20px;
+
+                    color: $color-secundario;
+
+                    margin-top: -4vh;
+                    margin-bottom: 7vh;
+                    width: 100%;
+                }
+
+                .estadisticas {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+
+                    .item {
+
+                        margin-top: -70px;
+                        margin-left: 60px;
+
+                        .numero {
+                            font-size: 65px;
+                        }
+
+                        .descripcion {
+                            font-size: 30px;
+
+                            margin-top: -70px;
+                        }
+                    }
+                }
+
+                img {
+                    width: 60%;
+                    height: 500px;
+
+                    margin-right: 43%;
+                    margin-top: -10vh;
+
+                }
+            }
+        }
+
+        footer {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            h3 {
+                text-align: center;
+
+                font-size: 40px;
+            }
+
+            .contactanos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                width: 100%;
+
+                .watap {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    // Colores
+                    background-color: #00e208;
+                    color: white;
+
+                    // Espaciado y forma
+                    padding: 0px 30px;
+                    border-radius: 50px;
+
+                    font-size: 20px;
+                    font-weight: bold;
+
+
+                    margin: 30px 0;
+
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+                    width: 300px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        margin-left: 10%;
+                    }
+                }
+
+                .tiktok {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    // Colores
+                    background-color: #000000;
+                    color: white;
+
+                    // Espaciado y forma
+                    padding: 0px 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    margin: 30px 0;
+
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+                    width: 300px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        margin-left: 10%;
+                    }
+                }
+
+                .instagram {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    // Colores
+                    background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+                    color: white;
+
+                    // Espaciado y forma
+                    padding: 0px 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    margin: 30px 0;
+
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+                    width: 300px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        margin-left: 10%;
+                    }
+                }
+
+                .telefono {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    // Colores
+                    background-color: white;
+                    color: #15295E;
+
+                    // Espaciado y forma
+                    padding: 0px 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    margin: 30px 0;
+
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+                    width: 300px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        margin-left: 10%;
+                    }
+                }
+
+                .email {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    // Colores
+                    background-color: white;
+                    color: #15295E;
+
+                    // Espaciado y forma
+                    padding: 0px 30px;
+                    border-radius: 50px;
+                    font-size: 20px;
+                    font-weight: bold;
+
+                    margin: 30px 0;
+
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+                    width: 300px;
+
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin-right: 15px;
+                    }
+
+                    p {
+                        margin-left: 10%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import 'tablet';
+@import 'mobile';

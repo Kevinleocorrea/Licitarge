@@ -1,0 +1,304 @@
+@media (max-width: 750px) {
+
+    html {
+        body {
+            header {
+                nav {
+                    width: 100%;
+                    font-size: 8px;
+
+                    //Contactos top//
+                    .contac-nav {
+                        .email {
+                            img {
+                                max-width: 15px;
+                                max-height: 15px;
+                            }
+                        }
+
+                        .wp {
+                            img {
+                                max-width: 15px;
+                                max-height: 15px;
+                            }
+                        }
+
+                        .phone {
+                            img {
+                                max-width: 15px;
+                                max-height: 15px;
+                            }
+                        }
+                    }
+
+                    ////
+
+                    .barra-nav {
+                        a {
+                            font-size: 10px;
+
+                            margin-top: 2vh;
+                        }
+                    }
+                }
+
+                //Seccion de banner//
+                .banner {
+
+                    width: 100%;
+                    height: 540px;
+
+                    object-fit: cover;
+
+                    padding-top: 35%;
+
+                    .logo-licitarge {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    p {
+                        font-size: 12px;
+
+                        z-index: 2;
+                    }
+                }
+            }
+
+            main {
+                .elegirnos {
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    .motivos {
+                        img {
+                            height: 60px;
+                            width: 60px;
+                        }
+
+                        .cont-motivos {
+                            width: 75%;
+
+                            .title {
+                                font-size: 15px;
+                                font-weight: bolder;
+                            }
+
+                            .sub-title {
+                                font-size: 13px;
+                                margin-top: -30px;
+                                font-weight: bolder;
+                            }
+                        }
+                    }
+                }
+
+                .requisitos {
+
+                    h2 {
+                        font-size: 30px;
+
+                        text-align: center;
+                    }
+
+                    .descrip-rolclave {
+                        font-size: 18px;
+
+                        width: 80%;
+
+                        margin-top: 0.5vh;
+                    }
+
+                    .cont-necesario {
+                        text-align: left;
+
+                        width: 80%;
+
+                        .necesario {
+
+                            .title {
+                                font-size: 20px;
+                            }
+
+                            .sub-title {
+                                font-size: 17px;
+
+                                margin-top: -30px;
+                            }
+                        }
+                    }
+
+                    .coment-rolclave {
+                        width: 80%;
+                        font-size: 18px;
+                    }
+                }
+
+                .sobrenos {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+
+                    text-align: center;
+
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    .text-sobrenos {
+                        font-size: 13px;
+                        width: 80%;
+                    }
+
+                    .estadisticas {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction:column;
+
+                        .item {
+                            margin-left: 0px;
+                            margin-top: -60px;
+
+                            .numero {
+                                font-size: 45px;
+                            }
+
+                            .descripcion {
+                                font-size: 20px;
+
+                                margin-top: -65px;
+                            }
+                        }
+                    }
+
+                    img {
+                        width: 100%;
+                        height: 300px;
+
+                        margin-right: 0%;
+                        margin-top: -7vh;
+
+                    }
+                }
+            }
+
+            footer {
+                h3 {
+                    font-size: 30px;
+                }
+
+                .contactanos {
+                    width: 100%;
+
+                    .watap {
+                        padding: 0px 25px;
+                        border-radius: 50px;
+
+                        font-size: 15px;
+                        font-weight: bold;
+
+                        width: 250px;
+
+                        margin: 30px 0;
+
+                        img {
+                            height: 27px;
+                            width: 27px;
+                        }
+
+                        p {
+                            margin-left: 10%;
+                        }
+                    }
+
+                    .tiktok {
+                        padding: 0px 25px;
+                        border-radius: 50px;
+
+                        font-size: 15px;
+                        font-weight: bold;
+
+                        width: 250px;
+
+                        margin: 30px 0;
+
+                        img {
+                            height: 27px;
+                            width: 27px;
+                        }
+
+                        p {
+                            margin-left: 10%;
+                        }
+                    }
+
+                    .instagram {
+                        padding: 0px 25px;
+                        border-radius: 50px;
+
+                        font-size: 15px;
+                        font-weight: bold;
+
+                        width: 250px;
+
+                        margin: 30px 0;
+
+                        img {
+                            height: 27px;
+                            width: 27px;
+                        }
+
+                        p {
+                            margin-left: 10%;
+                        }
+                    }
+
+                    .telefono {
+                        padding: 0px 25px;
+                        border-radius: 50px;
+
+                        font-size: 15px;
+                        font-weight: bold;
+
+                        width: 250px;
+
+                        margin: 30px 0;
+
+                        img {
+                            height: 27px;
+                            width: 27px;
+                        }
+
+                        p {
+                            margin-left: 10%;
+                        }
+                    }
+
+                    .email {
+                        padding: 0px 25px;
+                        border-radius: 50px;
+
+                        font-size: 15px;
+                        font-weight: bold;
+
+                        width: 250px;
+
+                        margin: 30px 0;
+
+                        img {
+                            height: 27px;
+                            width: 27px;
+                        }
+
+                        p {
+                            margin-left: 10%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

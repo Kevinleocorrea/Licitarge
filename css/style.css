@@ -1,0 +1,741 @@
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  background-color: #1F3C88;
+  color: white;
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+html body a {
+  text-decoration: none;
+  color: white;
+}
+html body header {
+  background: linear-gradient(180deg rgb(31, 60, 136) 100%, rgba(2, 0, 36, 0.781) 0%);
+}
+html body header nav {
+  background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgb(31, 60, 136) 100%);
+  height: 110px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+html body header nav .contac-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 90%;
+  margin-top: 1.5vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+html body header nav .contac-nav .email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vh;
+}
+html body header nav .contac-nav .email img {
+  max-width: 25px;
+  max-height: 25px;
+}
+html body header nav .contac-nav .email p {
+  margin-left: 1.5vh;
+}
+html body header nav .contac-nav .wp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vh;
+}
+html body header nav .contac-nav .wp img {
+  max-width: 25px;
+  max-height: 25px;
+}
+html body header nav .contac-nav .wp p {
+  margin-left: 1.5vh;
+}
+html body header nav .contac-nav .phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vh;
+}
+html body header nav .contac-nav .phone img {
+  max-width: 25px;
+  max-height: 25px;
+}
+html body header nav .contac-nav .phone p {
+  margin-left: 1.5vh;
+}
+html body header nav .barra-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+html body header nav .barra-nav a {
+  font-size: x-large;
+}
+html body header .banner {
+  width: 100%;
+  height: 400px;
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../images/foto-baner-1.png);
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+html body header .banner .logo-licitarge {
+  filter: drop-shadow(1px 10px 5px rgb(0, 0, 0));
+  margin-top: -17%;
+  z-index: 1;
+}
+html body header .banner p {
+  font-size: 25px;
+  z-index: 2;
+}
+html body main .elegirnos {
+  background-color: white;
+  text-align: center;
+  color: #1F3C88;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+html body main .elegirnos h1 {
+  font-size: 50px;
+}
+html body main .elegirnos .motivos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+}
+html body main .elegirnos .motivos img {
+  height: 90px;
+  width: 90px;
+}
+html body main .elegirnos .motivos .cont-motivos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+  height: 170px;
+  width: 570px;
+}
+html body main .elegirnos .motivos .cont-motivos .title {
+  font-size: 30px;
+  height: 34px;
+  width: 100%;
+}
+html body main .elegirnos .motivos .cont-motivos .sub-title {
+  font-size: 20px;
+  margin-top: -30px;
+  margin-left: 2px;
+  width: 100%;
+  color: #04A0BD;
+}
+html body main .requisitos {
+  background: linear-gradient(180deg, rgba(2, 0, 36, 0.781) 0%, rgb(31, 60, 136) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+html body main .requisitos h2 {
+  font-size: 50px;
+  height: 60px;
+}
+html body main .requisitos .descrip-rolclave {
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  margin-top: -30px;
+  color: #04A0BD;
+}
+html body main .requisitos .cont-necesario {
+  text-align: left;
+  width: 50%;
+}
+html body main .requisitos .cont-necesario .necesario {
+  margin-top: 0px;
+}
+html body main .requisitos .cont-necesario .necesario .title {
+  font-size: 30px;
+}
+html body main .requisitos .cont-necesario .necesario .sub-title {
+  font-size: 18px;
+  margin-top: -35px;
+  color: #04A0BD;
+}
+html body main .requisitos .coment-rolclave {
+  width: 850px;
+  margin-bottom: -4vh;
+  text-align: center;
+  font-size: 25px;
+}
+html body main .sobrenos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  color: #1F3C88;
+}
+html body main .sobrenos h2 {
+  font-size: 50px;
+  height: 60px;
+  padding-top: -20px;
+}
+html body main .sobrenos .text-sobrenos {
+  text-align: center;
+  font-size: 20px;
+  color: #04A0BD;
+  margin-top: -4vh;
+  margin-bottom: 7vh;
+  width: 100%;
+}
+html body main .sobrenos .estadisticas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+html body main .sobrenos .estadisticas .item {
+  margin-top: -70px;
+  margin-left: 60px;
+}
+html body main .sobrenos .estadisticas .item .numero {
+  font-size: 65px;
+}
+html body main .sobrenos .estadisticas .item .descripcion {
+  font-size: 30px;
+  margin-top: -70px;
+}
+html body main .sobrenos img {
+  width: 60%;
+  height: 500px;
+  margin-right: 43%;
+  margin-top: -10vh;
+}
+html body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html body footer h3 {
+  text-align: center;
+  font-size: 40px;
+}
+html body footer .contactanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+html body footer .contactanos .watap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #00e208;
+  color: white;
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+html body footer .contactanos .watap img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+html body footer .contactanos .watap p {
+  margin-left: 10%;
+}
+html body footer .contactanos .tiktok {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+html body footer .contactanos .tiktok img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+html body footer .contactanos .tiktok p {
+  margin-left: 10%;
+}
+html body footer .contactanos .instagram {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-image: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  color: white;
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+html body footer .contactanos .instagram img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+html body footer .contactanos .instagram p {
+  margin-left: 10%;
+}
+html body footer .contactanos .telefono {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  color: #15295E;
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+html body footer .contactanos .telefono img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+html body footer .contactanos .telefono p {
+  margin-left: 10%;
+}
+html body footer .contactanos .email {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  color: #15295E;
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+}
+html body footer .contactanos .email img {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+html body footer .contactanos .email p {
+  margin-left: 10%;
+}
+
+@media (min-width: 751px) and (max-width: 990px) {
+  html body header nav {
+    font-size: 13px;
+  }
+  html body header nav .contac-nav .email img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  html body header nav .contac-nav .wp img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  html body header nav .contac-nav .phone img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  html body header nav .barra-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 1vh;
+  }
+  html body header nav .barra-nav a {
+    font-size: large;
+  }
+  html body header .banner {
+    width: 100%;
+    height: 400px;
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/foto-baner-1.png);
+    background-position: 50%;
+    background-size: cover;
+    object-fit: cover;
+  }
+  html body header .banner p {
+    font-size: 20px;
+    z-index: 2;
+  }
+  html body main .elegirnos h1 {
+    font-size: 40px;
+  }
+  html body main .elegirnos .motivos img {
+    height: 70px;
+    width: 70px;
+  }
+  html body main .elegirnos .motivos .cont-motivos .title {
+    font-size: 27px;
+  }
+  html body main .elegirnos .motivos .cont-motivos .sub-title {
+    font-size: 17px;
+    margin-top: -30px;
+  }
+  html body main .requisitos h2 {
+    font-size: 40px;
+  }
+  html body main .requisitos .descrip-rolclave {
+    font-size: 20px;
+  }
+  html body main .requisitos .coment-rolclave {
+    width: 650px;
+    font-size: 23px;
+  }
+  html body main .sobrenos h2 {
+    font-size: 40px;
+  }
+  html body main .sobrenos .text-sobrenos {
+    text-align: center;
+    font-size: 15px;
+    color: #04A0BD;
+    margin-top: -4vh;
+    margin-bottom: 7vh;
+    width: 650px;
+  }
+  html body main .sobrenos .estadisticas .item {
+    margin-top: -70px;
+    margin-left: 50px;
+  }
+  html body main .sobrenos .estadisticas .item .numero {
+    font-size: 55px;
+  }
+  html body main .sobrenos .estadisticas .item .descripcion {
+    font-size: 20px;
+  }
+  html body main .sobrenos img {
+    width: 90%;
+    height: 500px;
+    margin-right: 20%;
+    margin-top: -10vh;
+  }
+  html body footer h3 {
+    font-size: 30px;
+  }
+  html body footer .contactanos {
+    width: 100%;
+  }
+  html body footer .contactanos .watap {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .watap img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .watap p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .tiktok {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .tiktok img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .tiktok p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .instagram {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .instagram img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .instagram p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .telefono {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .telefono img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .telefono p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .email {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .email img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .email p {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 750px) {
+  html body header nav {
+    width: 100%;
+    font-size: 8px;
+  }
+  html body header nav .contac-nav .email img {
+    max-width: 15px;
+    max-height: 15px;
+  }
+  html body header nav .contac-nav .wp img {
+    max-width: 15px;
+    max-height: 15px;
+  }
+  html body header nav .contac-nav .phone img {
+    max-width: 15px;
+    max-height: 15px;
+  }
+  html body header nav .barra-nav a {
+    font-size: 10px;
+    margin-top: 2vh;
+  }
+  html body header .banner {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    padding-top: 35%;
+  }
+  html body header .banner .logo-licitarge {
+    width: 100%;
+    height: auto;
+  }
+  html body header .banner p {
+    font-size: 12px;
+    z-index: 2;
+  }
+  html body main .elegirnos h2 {
+    font-size: 30px;
+  }
+  html body main .elegirnos .motivos img {
+    height: 60px;
+    width: 60px;
+  }
+  html body main .elegirnos .motivos .cont-motivos {
+    width: 75%;
+  }
+  html body main .elegirnos .motivos .cont-motivos .title {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  html body main .elegirnos .motivos .cont-motivos .sub-title {
+    font-size: 13px;
+    margin-top: -30px;
+    font-weight: bolder;
+  }
+  html body main .requisitos h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  html body main .requisitos .descrip-rolclave {
+    font-size: 18px;
+    width: 80%;
+    margin-top: 0.5vh;
+  }
+  html body main .requisitos .cont-necesario {
+    text-align: left;
+    width: 80%;
+  }
+  html body main .requisitos .cont-necesario .necesario .title {
+    font-size: 20px;
+  }
+  html body main .requisitos .cont-necesario .necesario .sub-title {
+    font-size: 17px;
+    margin-top: -30px;
+  }
+  html body main .requisitos .coment-rolclave {
+    width: 80%;
+    font-size: 18px;
+  }
+  html body main .sobrenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  html body main .sobrenos h2 {
+    font-size: 30px;
+  }
+  html body main .sobrenos .text-sobrenos {
+    font-size: 13px;
+    width: 80%;
+  }
+  html body main .sobrenos .estadisticas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  html body main .sobrenos .estadisticas .item {
+    margin-left: 0px;
+    margin-top: -60px;
+  }
+  html body main .sobrenos .estadisticas .item .numero {
+    font-size: 45px;
+  }
+  html body main .sobrenos .estadisticas .item .descripcion {
+    font-size: 20px;
+    margin-top: -65px;
+  }
+  html body main .sobrenos img {
+    width: 100%;
+    height: 300px;
+    margin-right: 0%;
+    margin-top: -7vh;
+  }
+  html body footer h3 {
+    font-size: 30px;
+  }
+  html body footer .contactanos {
+    width: 100%;
+  }
+  html body footer .contactanos .watap {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .watap img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .watap p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .tiktok {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .tiktok img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .tiktok p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .instagram {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .instagram img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .instagram p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .telefono {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .telefono img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .telefono p {
+    margin-left: 10%;
+  }
+  html body footer .contactanos .email {
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 250px;
+    margin: 30px 0;
+  }
+  html body footer .contactanos .email img {
+    height: 27px;
+    width: 27px;
+  }
+  html body footer .contactanos .email p {
+    margin-left: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
