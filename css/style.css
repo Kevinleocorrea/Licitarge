@@ -29,10 +29,8 @@ html body header .info-barra-nav .contac-nav {
   justify-content: space-between;
   align-items: center;
   height: 40px;
-  width: 90%;
   margin-top: 1.5vh;
-  margin-left: 3vh;
-  margin-right: 3vh;
+  margin-left: 2vh;
 }
 html body header .info-barra-nav .contac-nav .email {
   display: flex;
