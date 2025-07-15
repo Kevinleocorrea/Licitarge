@@ -549,7 +549,7 @@ html body footer .contactanos .email p {
 @media (max-width: 750px) {
   html body header .info-barra-nav {
     width: 100%;
-    font-size: 12px;
+    font-size: 8.5px;
   }
   html body header .info-barra-nav .contac-nav .email img {
     max-width: 17px;
@@ -639,7 +639,7 @@ html body footer .contactanos .email p {
   }
   html body main .elegirnos .motivos .cont-motivos .sub-title {
     font-size: 13px;
-    margin-top: -30px;
+    margin-top: -27px;
     font-weight: bolder;
   }
   html body main .requisitos h2 {
@@ -660,7 +660,7 @@ html body footer .contactanos .email p {
   }
   html body main .requisitos .cont-necesario .necesario .sub-title {
     font-size: 17px;
-    margin-top: -30px;
+    margin-top: -27px;
   }
   html body main .requisitos .coment-rolclave {
     width: 80%;
