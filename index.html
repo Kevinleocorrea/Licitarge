@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap"
+        onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
@@ -11,10 +13,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Licitarge</title>
 </head>
+
 <body>
 
     <header>
-        <nav>
+        <div class="info-barra-nav">
             <div class="contac-nav">
                 <div class="email">
                     <img src="./images/icons/icons8-nuevo-post-50.png" alt="Email" loading="lazy">
@@ -34,19 +37,22 @@
 
             <hr class="linea-blan">
 
-            <div class="barra-nav">
-                <a href="#inicio">Inicio</a>
-                <a href="#elegirnos">¿Por que elegirnos?</a>
-                <a href="#requisitos">Requisitos</a>
-                <a href="#sobrenos">Sobre nosotros</a>
-                <a href="#contacto">Contacto</a>
-            </div>
-        </nav>
+            <button class="abrir-menu">☰</button>
+            <nav>
+                <button class="cerrar-menu">✕</button>
+                <div class="barra-nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#elegirnos">¿Por que elegirnos?</a>
+                    <a href="#requisitos">Requisitos</a>
+                    <a href="#sobrenos">Sobre nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </nav>
+        </div>
+
 
         <div id="inicio" class="banner">
             <img class="logo-licitarge" src="./images/logo/licitarge-logo.png" alt="Logo licitarge" loading="lazy">
-
-            <!--  <img class="fondo-banner" src="./images/foto-baner-1.png" alt="Baner licitarge" loading="lazy"> -->
 
             <p id="elegirnos">Maximizá tus chances. Minimiza errores. Ganá con Licitarge.</p>
         </div>
@@ -74,7 +80,7 @@
                         Nos ocupamos de todo
                     </p>
                     <p class="sub-title">
-                        Realizamos todos los trámites para una correcta participación.              
+                        Realizamos todos los trámites para una correcta participación.
                     </p>
                 </div>
                 <img src="./images/icons/marca-de-verificacion.png" alt="verificacion" loading="lazy">
@@ -99,17 +105,18 @@
                         Acompañamiento post-adjucacion
                     </p>
                     <p class="sub-title">
-                        Realizamos el análisis de todas las actas de apertura, adjudiciones y un seguimiento a lo largo del tiempo para darte un feedback de tus rendimientos
-                    </p>    
+                        Realizamos el análisis de todas las actas de apertura, adjudiciones y un seguimiento a lo largo
+                        del tiempo para darte un feedback de tus rendimientos
+                    </p>
                 </div>
                 <img src="./images/icons/marca-de-verificacion.png" alt="verificacion" loading="lazy">
             </div>
         </section>
 
         <section id="requisitos" class="requisitos">
-            
+
             <h2>TU ROL CLAVE EN CADA LICITACIÓN</h2>
-            
+
             <p class="descrip-rolclave">
                 Para que podamos trabajar juntos de forma ágil, necesitamos que tu empresa se comprometa con:
             </p>
@@ -120,13 +127,13 @@
                         Documentación actualizada de tu empresa.
                     </p>
                 </div>
-    
+
                 <div class="necesario">
                     <p class="title">
                         Información de productos o servicios requeridos en la licitación.
                     </p>
                 </div>
-    
+
                 <div class="necesario">
                     <p class="title">
                         Compromiso real y concreto:
@@ -135,7 +142,7 @@
                         Te necesitamos con ganas de crecer, explorar nuevos canales de venta y pensar a largo plazo.
                     </p>
                 </div>
-    
+
                 <div class="necesario">
                     <p class="title">
                         En LICIT.ARGE, trabajamos como socios:
@@ -144,7 +151,7 @@
                         Nosotros ponemos el Know-how en licitaciones, vos pones tu conocimiento del negocio.
                     </p>
                 </div>
-    
+
                 <div class="necesario">
                     <p class="title">
                         Disponibilidad para ajustar estrategias:
@@ -153,7 +160,7 @@
                         Cada licitación es única. El feedback es clave para afinar las presentaciones.
                     </p>
                 </div>
-    
+
                 <div class="necesario">
                     <p class="title">
                         Rapidez para la toma de decisiones:
@@ -163,18 +170,23 @@
                     </p>
                 </div>
             </div>
-            
+
             <p id="sobrenos" class="coment-rolclave">
-                Con tu conocimiento del negocio y nuestra experiencia en licitaciones, hacemos que las oportunidades sean concretas.
+                Con tu conocimiento del negocio y nuestra experiencia en licitaciones, hacemos que las oportunidades
+                sean concretas.
             </p>
         </section>
 
         <section class="sobrenos">
             <h2>SOBRE NOSOTROS</h2>
             <p class="text-sobrenos">
-                Con Licitarge, tu empresa compite en el mundo de las licitaciones. Contamos con la experiencia, el conocimiento técnico y la estrategia para transformar cada oportunidad en una posibilidad real de venta. Nos ocupamos de todo el proceso, desde la búsqueda hasta la presentación, para que vos puedas concentrarte en tu negocio. Asociarte a Licitarge no es solo delegar una tarea: es sumar un socio que te potencia, te guía y te acerca a resultados concretos.
+                Con Licitarge, tu empresa compite en el mundo de las licitaciones. Contamos con la experiencia, el
+                conocimiento técnico y la estrategia para transformar cada oportunidad en una posibilidad real de venta.
+                Nos ocupamos de todo el proceso, desde la búsqueda hasta la presentación, para que vos puedas
+                concentrarte en tu negocio. Asociarte a Licitarge no es solo delegar una tarea: es sumar un socio que te
+                potencia, te guía y te acerca a resultados concretos.
             </p>
-        
+
             <section class="estadisticas">
                 <div class="item">
                     <p class="numero">100+</p>
@@ -211,7 +223,7 @@
                 </div>
             </a>
 
-<!--             <div class="tiktok">
+            <!--             <div class="tiktok">
                 <img src="./images/icons/logo-tiktok-blan.png" alt="Tik Tok">
                 <p>
                     @Licit.arge
@@ -224,7 +236,7 @@
                     @Licit.arge
                 </p>
             </div> -->
-            
+
             <div class="telefono">
                 <img src="./images/icons/icono-telef-azul-50.png" alt="telefono" loading="lazy">
                 <p>
@@ -250,5 +262,7 @@
         </section>
     </footer>
 
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
